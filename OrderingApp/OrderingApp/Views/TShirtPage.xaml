@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="OrderingApp.Views.TShirtPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <Frame BackgroundColor="DarkTurquoise" Padding="24" CornerRadius="0">
+                <Label Text="T-Shirt Ordering App" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+            </Frame>
+            <Entry Placeholder="Name" Keyboard="Text"/>
+            <Entry Placeholder="Gender" Keyboard="Text"/>
+            <Entry Placeholder="T-Shirt Size" Keyboard="Text"/>
+            <Entry Placeholder="Date of Order" Keyboard="Numeric"/>
+            <Entry Placeholder="T-Shirt Color" Keyboard="Text"/>
+            <Entry Placeholder="Shipping Address" Keyboard="Plain"/>
+            <Button Text="Capture"/>
+            <Button Text="Order History"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
